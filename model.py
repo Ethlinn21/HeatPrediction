@@ -38,7 +38,7 @@ def show_plots(X, Y):
     plt.scatter(X, Y, s=10, edgecolor="black", c="darkorange", label="training data")
     plt.xlabel("selected parameter")
     plt.ylabel("predicted Qrz")
-    plt.title("Decision Tree Regression")
+    plt.title("Regression")
     plt.legend()
     plt.show()
 
